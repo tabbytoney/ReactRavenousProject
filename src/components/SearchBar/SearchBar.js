@@ -32,10 +32,14 @@ class SearchBar extends React.Component {
                     <input placeholder="Where?" />
                 </div>
                 <div className="SearchBar-submit">
-                    <a>Let's Go</a>
+                    <a href="www.#.com">Let's Go</a> 
+                    {/* Not sure what the href is but it corrected an error on the tutorial that I didn't have */}
+                    
                 </div>
             </div>
         )
     }
 }
+
+export default SearchBar;
 
